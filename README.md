@@ -10,9 +10,9 @@ key2 [tab] data5
 key2 [tab] data6
 ```
 * output은 아래와 같이 디렉토리 두 개로 분리된다.
-** ${OUTPUT_DIR}/key1/part-0000
-** ${OUTPUT_DIR}/key2/part-0001
+  * ${OUTPUT_DIR}/key1/part-0000
+  * ${OUTPUT_DIR}/key2/part-0001
 
 * 사용법: 아래와 같이 streaming 실행 시, 옵션을 준다.
-** -libjars path/to/jar/quality.jar # generic option. jar 파일 지정
-** -outputformat com.kakao.quality.web.KeyMultipleOutputFormat
+  * -libjars path/to/jar/quality.jar # generic option. jar 파일 지정
+  * -outputformat com.kakao.quality.web.KeyMultipleOutputFormat
